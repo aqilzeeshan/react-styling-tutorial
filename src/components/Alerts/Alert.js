@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { createUseStyles } from 'react-jss';
 
 export default function Alert({ children, title, type }) {
 
     const colors = {
         success: '#6da06f',
         error: '#f56260',
-      }
+    }
     
       const style = {
         heading: {
